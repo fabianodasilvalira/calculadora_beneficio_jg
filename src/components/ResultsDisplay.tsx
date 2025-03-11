@@ -72,7 +72,7 @@ export const ResultsDisplay: React.FC<ResultsDisplayProps> = ({ results }) => {
             className="flex items-center justify-center sm:justify-start gap-2 text-blue-600 hover:text-blue-800 font-medium w-full sm:w-auto"
           >
             <Share2 size={20} />
-            Compartilhar Melhor Resultado
+            Compartilhar o Melhor Resultado
           </button>
         </div>
       </div>
