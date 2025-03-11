@@ -8,11 +8,11 @@ import { v4 as uuidv4 } from 'uuid'; // Importando o uuid para gerar UUIDs
 
 const bannerImages = [
   {
-    url: "/src/media/jg.png",
+    url: "https://raw.githubusercontent.com/fabianodasilvalira/calculadora_beneficio_jg/refs/heads/main/src/media/jg.png",
     alt: "JG Depósito Logo"
   },
   {
-    url: "/src/media/sm.png",
+    url: "https://raw.githubusercontent.com/fabianodasilvalira/calculadora_beneficio_jg/refs/heads/main/src/media/sm.png",
     alt: "Auto Elétrica São M"
   }
 ];
