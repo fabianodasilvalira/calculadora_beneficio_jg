@@ -128,7 +128,7 @@ function App() {
             Calculadora de Custo-Benefício
           </h2>
           <p className="text-lg sm:text-xl text-blue-700 max-w-2xl mx-auto font-poppins px-2">
-              Compare preços e quantidades de diferentes tipos de cervejas para encontrar a melhor opção.
+              Compare preços e volumes de diferentes tipos de cervejas para encontrar a melhor opção.
           </p>
         </div>
 
@@ -139,10 +139,14 @@ function App() {
             onClear={handleClear}
           />
         </div>
+        <footer className="text-center text-blue-700 text-sm py-4">
+          Desenvolvido por <span className="font-bold">Fabiano Lira</span>
+        </footer>
         
         <ResultsDisplay results={results} />
       </div>
     </div>
+    
   );
 }
 
