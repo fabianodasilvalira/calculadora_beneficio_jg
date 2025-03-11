@@ -73,7 +73,7 @@ export const BeverageForm: React.FC<BeverageFormProps> = ({
                 onChange={(e) => handleVolumeChange(beverage.id, e.target.value)}
                 className="w-full p-3 border rounded-lg bg-gray-50 focus:bg-white focus:ring-2 focus:ring-blue-300 outline-none transition-all duration-200"
               >
-                <option value="0">Selecione o volume</option>
+                <option value="0">Selecione o tipo de cerveja</option>
                 {Object.entries(groupedOptions).map(([category, options]) => (
                   <optgroup key={category} label={category}>
                     {options.map((option) => (
